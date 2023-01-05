@@ -8,7 +8,7 @@ import { onAddNewEvent, onDeleteEvent, onLoadEvents, onSetActiveEvent, onUpdateE
 export const useCalendarStore = () => {
   
     const dispatch = useDispatch();
-    const { events, activeEvent } = useSelector( state => state.calendar );
+    const { events, activeEvent } = useSelector( state => state.calendarSlice );
     const { user } = useSelector( state => state.authSlice );
 
     const setActiveEvent = ( calendarEvent ) => {

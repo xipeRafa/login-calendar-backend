@@ -15,15 +15,6 @@ const calendarApi = axios.create({
     console.log('usuarios Registrados', data)
 })()
 
-/* (async()=>{
-    const { data } = await calendarApi.get('/events') 
-    console.log('eventos', data)
-})() */
- 
-  
-  
-
- 
  
 
 // Todo: configurar interceptores
